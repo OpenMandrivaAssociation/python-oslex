@@ -1,6 +1,6 @@
 Name:		python-oslex
 Version:	2.0.0
-Release:	1
+Release:	2
 Summary:	OS-independent wrapper for shlex and mslex
 License:	MIT
 Group:		Development/Python
@@ -11,7 +11,7 @@ BuildArch:	noarch
 %global __requires_exclude ^python[0-9.]*dist\\(
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(hatchling)
